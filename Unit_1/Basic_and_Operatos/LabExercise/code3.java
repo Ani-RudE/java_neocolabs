@@ -1,3 +1,5 @@
+// Expenses of a company
+
 package Unit_1.Basic_and_Operatos.LabExercise;
 import java.util.*;
 
