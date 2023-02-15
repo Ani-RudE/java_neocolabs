@@ -1,4 +1,8 @@
 {
+     "transparent-win.transparency": 1,
+     "vscord.status.state.text.editing": "Working on {file_extension}:{current_line}:{current_column}",
+     "vscord.status.details.text.editing": "In a workspace {problems}",
+     "liveServer.settings.port": 5501,
      "editor.tabSize": 5,
      "prettier.tabWidth": 5
 }
