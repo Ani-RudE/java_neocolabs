@@ -1,5 +1,5 @@
 #
-#code1 - Write a prog. to find square, cubem and square root.
+#code1 - Write a prog. to find square, cube and square root.
 
 #code2 - Profit and Loss of scooter
 
