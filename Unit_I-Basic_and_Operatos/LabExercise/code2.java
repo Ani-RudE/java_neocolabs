@@ -1,4 +1,4 @@
-// Profit and Loss of scooter=
+// Profit and Loss of scooter
 import java.util.*;
 
 public class code2 {
