@@ -1,6 +1,4 @@
 // Write a program to convert Celsius to Fahrenheit
-
-package Unit_1.Basic_and_Operatos.LabExercise;
 import java.util.Scanner;
 
 class code5 {
