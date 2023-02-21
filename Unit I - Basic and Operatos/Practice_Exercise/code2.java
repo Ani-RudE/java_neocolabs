@@ -1,5 +1,4 @@
 import java.util.*;
-import java.lang.Math.*;
 
 class hello{
      public static void main(String[] args)
@@ -13,8 +12,8 @@ class hello{
           l=3*s;
           b=4*d;
           
-          System.out.printf("Side: %.2f\n", s);
-          System.out.printf("Length: %.2f\n", l);
+          System.out.printf("Side : %.2f\n", s);
+          System.out.printf("Length : %.2f\n", l);
           System.out.printf("Breadth : %.2f\n", b);
 
           scan.close();
