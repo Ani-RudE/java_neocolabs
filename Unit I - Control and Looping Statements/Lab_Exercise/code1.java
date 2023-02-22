@@ -1,4 +1,4 @@
-// Marks and Grades
+//Marks and Grades
 import java.util.*;
 
 class hello{

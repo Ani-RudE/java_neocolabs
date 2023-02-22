@@ -1,4 +1,4 @@
-// IPL Season and Preity's favourite team.
+//IPL Season and Preity's favourite team.
 import java.util.Scanner;
 
 class hello{
