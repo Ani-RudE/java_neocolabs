@@ -1,4 +1,4 @@
-// Marks and Grades
+// IPL Season and Preity's favourite team.
 import java.util.*;
 
 class hello{
