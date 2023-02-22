@@ -5,9 +5,9 @@
 
 #code3 - Stairs and Elevators.
 
-#code4 - 
+#code4 - Half-Diamond Printing.
 
-#code5 - 
+#code5 - Kaprekar Number.
 
 #code6 - 
 #

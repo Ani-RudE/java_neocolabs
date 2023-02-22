@@ -1,4 +1,4 @@
-//
+//Half-Diamond Printing.
 import java.util.*;
 
 class hello{
