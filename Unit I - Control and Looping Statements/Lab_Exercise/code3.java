@@ -2,40 +2,28 @@
 import java.util.*;
 
 class hello{
-     public static void main(String[] args)
+     public static void main(String [] args)
      {
-          Scanner sc = new Scanner(System.in);
-          int i, j, k, N;
-          N = sc.nextInt();
+          int n,v1,v2;
+          double t1,t2;
+          Scanner scan = new Scanner(System.in);
+          n = scan.nextInt();
+          v1 = scan.nextInt();
+          v2 = scan.nextInt();
 
-          for(i=1;i<=N;i++)
+          t1=1.41421356237*n*100/v1;
+          t2=2*n*100;
+          t2=t2/v2;
+
+          if(t1<t2)
           {
-               k=1;
-               for(j=0;j<i;j++)
-               {
-                    System.out.print(i);
-                    if(k<i)
-                    {
-                         System.out.print("*");
-                         k=k+1;
-                    }
-               }
-
-               System.out.println();
+               System.out.println("Stairs");
+          }
+          else
+          {
+               System.out.println("Elevator");
           }
 
-          for(i=N;i>0;i--)
-          {
-               k=1;
-               for(j=0;j<i;j++)
-               {
-                    System.out.print(i);
-                    if(k<i)
-                    {
-                         System.out.print("*");
-                         k=k+1;
-                    }
-               }
-          }
+          scan.close();
      }
-} 
+}
