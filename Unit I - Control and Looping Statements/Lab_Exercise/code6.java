@@ -19,10 +19,10 @@ class code6{
           {
                current = last + secondLast + thirdLast;
                System.out.print(current + " ");
-               int tmp = last;
+               int temp = last;
                last = current;
                thirdLast = secondLast;
-               secondLast = tmp;
+               secondLast = temp;
           }
      }
 }
