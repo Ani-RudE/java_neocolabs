@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class hello{
+class Main{
     public static void main(String[] args)
     {
         char tick;
