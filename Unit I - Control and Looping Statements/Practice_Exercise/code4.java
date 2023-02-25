@@ -1,3 +1,4 @@
+//Special Number.
 import java.util.*;
 
 class Main{

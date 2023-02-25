@@ -1,3 +1,4 @@
+//Sum of digits till the sum is single digits.
 import java.util.*;
 
 class Main{

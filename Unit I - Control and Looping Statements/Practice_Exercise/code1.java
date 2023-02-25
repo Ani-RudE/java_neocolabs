@@ -1,5 +1,4 @@
 //Ticket Types.
-
 import java.util.*;
 
 class Main{

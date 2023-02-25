@@ -1,3 +1,4 @@
+//Pascal's Triangle.
 import java.util.*;
 
 class Main{
@@ -23,5 +24,7 @@ class Main{
             
             System.out.println();
         }
+
+        scan.close();
     }
 }
