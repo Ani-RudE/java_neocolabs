@@ -7,7 +7,7 @@
 
 #code4 - Special Number.
 
-#code5 - Geenrating the series - 6, 11, 21, 36, 56...
+#code5 - Generating the series - 6, 11, 21, 36, 56...
 
 #code6 - Drona and Arjuna, scoring 100 points.
 
