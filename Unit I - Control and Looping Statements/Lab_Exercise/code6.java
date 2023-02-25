@@ -1,4 +1,4 @@
-//
+//Second Last and Third Last.
 import java.util.*;
 
 class code6{
