@@ -1,5 +1,5 @@
 //Vowel or Consonant
-import java.util.*
+import java.util.*;
 
 class Main{
     void alph(char ch)
