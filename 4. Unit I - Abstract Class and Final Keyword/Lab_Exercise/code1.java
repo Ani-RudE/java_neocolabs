@@ -17,7 +17,7 @@ class MyBook extends Book{
     }
 }
 
-public class Main{
+class Main{
     public static void main(String[] args)
     {
         Scanner scan=new Scanner(System.in);
