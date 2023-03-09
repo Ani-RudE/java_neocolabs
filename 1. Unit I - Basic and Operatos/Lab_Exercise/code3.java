@@ -25,6 +25,8 @@ class hello{
 
           i=i+N;
 
+          System.out.println(i);
+
           scan.close();
      }
 }
