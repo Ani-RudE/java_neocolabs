@@ -1,37 +1,29 @@
-// Expenses of a company
 import java.util.*;
 
-public class code3 {
-     public static void main(String[] args)
+class hello{
+     public static void main(String args[])
      {
-          double brand, travel, food, logi, total;
-
+          int N;
           Scanner scan=new Scanner(System.in);
+          N=scan.nextInt();
+          int i=0;
 
-          brand=scan.nextDouble();
-          travel=scan.nextDouble();
-          food=scan.nextDouble();
-          logi=scan.nextDouble();
-          total=brand+travel+food+logi;
-          brand=brand*100/total;
-          travel=travel*100/total;
-          food=food*100/total;
-          logi=logi*100/total;
+          i=i+(N/100);
+          N=N%100;
 
-          System.out.print("Total expenses : Rs.");
-          System.out.printf("%.2f", total);
-          System.out.println();
-          System.out.printf("Branding expenses percentage : %.2f", brand);
-          System.out.print("%");
-          System.out.println();
-          System.out.printf("Travel expenses percentage : %.2f", travel);
-          System.out.print("%");
-          System.out.println();
-          System.out.printf("Food expenses percentage : %.2f", food);
-          System.out.print("%");
-          System.out.println();
-          System.out.printf("Logistics expenses percentage : %.2f", logi);
-          System.out.print("%");
+          i=i+(N/50);
+          N=N%50;
+
+          i=i+(N/10);
+          N=N%10;
+
+          i=i+(N/5);
+          N=N%5;
+
+          i=i+(N/2);
+          N=N%2;
+
+          i=i+N;
 
           scan.close();
      }

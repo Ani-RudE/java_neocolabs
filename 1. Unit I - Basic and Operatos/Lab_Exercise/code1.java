@@ -1,18 +1,25 @@
-// Write a prog. to find square, cube and square root.
 import java.util.*;
-import java.lang.Math;
 
-class Code1{
-     public static void main(String[] args)
-     {
-          int n;
-          Scanner scan = new Scanner(System.in);
-          n=scan.nextInt();
-          
-          System.out.print("Square of "+n+" is: "+Math.pow(n, 2)+"\n");
-          System.out.print("Cube of "+n+" is: "+Math.pow(n, 3)+"\n");
-          System.out.print("Square Root of "+n+" is: "+Math.pow(n, 0.5)+"\n");
-          
+class hello{
+     public static void main(String[] args){
+          String name, type;
+          int num;
+          char A;
+          double exp;
+          Scanner scan=new Scanner(System.in);
+
+          name=scan.nextLine();
+          type=scan.nextLine();
+          num=scan.nextInt();
+          A=scan.next().charAt(0);
+          exp=scan.nextDouble();
+
+          System.out.println("Event Name : "+name);
+          System.out.println("Event Type : "+type);
+          System.out.println("Expected Count : "+num);
+          System.out.println("Paid Entry : 11 "+A);
+          System.out.println("Projected Expense : "+exp+"L");
+
           scan.close();
      }
 }

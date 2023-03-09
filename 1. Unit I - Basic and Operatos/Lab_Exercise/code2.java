@@ -1,20 +1,21 @@
-// Profit and Loss of scooter
 import java.util.*;
+// import java.lang.Math.*;
 
-public class code2 {
+class hello{
      public static void main(String[] args)
      {
-          float A, B, C;
-
+          double d;
           Scanner scan=new Scanner(System.in);
-
-          A=scan.nextFloat();
-          B=scan.nextFloat();
-          C=scan.nextFloat();
-
-          float profit=(C-(A+B))*100/C;
-
-          System.out.print(String.format("%.2f", profit));
+          d=scan.nextDouble();
+          double s, l, b;
+          
+          s=(3*d)/Math.sqrt(3);
+          l=3*s;
+          b=4*d;
+          
+          System.out.printf("Side : %.2f\n", s);
+          System.out.printf("Length : %.2f\n", l);
+          System.out.printf("Breadth : %.2f\n", b);
 
           scan.close();
      }
