@@ -1,7 +1,7 @@
 //IPL Season and Preity's favourite team.
 import java.util.Scanner;
 
-class hello{
+class Main{
      public static void main (String[] args)
      {
           Scanner scan = new Scanner(System.in) ;
