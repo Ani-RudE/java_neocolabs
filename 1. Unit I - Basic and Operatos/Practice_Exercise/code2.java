@@ -12,7 +12,7 @@ public class code2 {
           B=scan.nextFloat();
           C=scan.nextFloat();
 
-          float profit=(C-(A+B))*100/C;
+          float profit=((C-(A+B))*100)/(A+B);
 
           System.out.print(String.format("%.2f", profit));
 
