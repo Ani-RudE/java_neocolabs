@@ -1,3 +1,4 @@
+//Create an inteface rotate with the given functions.
 import java.util.*;
 
 interface Rotate {
@@ -22,7 +23,6 @@ class Main implements Rotate {
           arr[i] = temp;
      }
 
-     /* utility function to print an array */
      public void printArray(int arr[], int n) {
           for (int i = 0; i < n; i++)
                System.out.print(arr[i] + " ");
