@@ -1,3 +1,4 @@
+//Create an Interface that has the following method - void diagonalIsMinMax(int a[][]);
 import java.util.*;
 
 interface Matrix{

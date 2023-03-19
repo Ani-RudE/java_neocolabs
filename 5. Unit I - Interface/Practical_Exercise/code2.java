@@ -1,78 +1,69 @@
+//Create an Interface Product
 import java.util.*;
-import java.util.Arrays;
 
-interface Growing{
-void isGrowing();
+interface Product
+{
+ void ProductDetails();
+void show_Bill();
 }
 
-class GrowingNumber implements Growing {
-     int num;
+class Customer {
+     static Scanner sc;
+     String C_Name;
+     int C_ID;
+     String P_Name;
+     int P_Cost;
 
-     public GrowingNumber(int i) {
-          num = i;
+     void getdetails() {
+          C_ID = sc.nextInt();
+          sc.nextLine();
+          C_Name = sc.nextLine();
      }
 
-     public void isGrowing() {
-          // int num=423;
-          boolean flag = false;
-          int currentDigit = num % 10;
-          num = num / 10;
-          while (num > 0) {
-               if (currentDigit <= num % 10) {
-                    flag = true;
-                    break;
-               }
-               currentDigit = num % 10;
-               num = num / 10;
-          }
-          if (flag) {
-               System.out.println("Not growing number");
-          } else {
-               System.out.println("Growing number");
-          }
+     void showdetails() {
+          System.out.println("ID:" + C_ID);
+          System.out.println("NAME:" + C_Name);
      }
 }
 
-class GrowingString implements Growing {
-     String s1;
+class OrderOnline extends Customer implements Product {
+     int no_of_items;
+     int total_Bill = 0;
 
-     public GrowingString(String string) {
-          s1 = string;
+     public void ProductDetails() {
+          no_of_items = sc.nextInt();
+
+          for (int i = 0; i < no_of_items; i++) {
+               sc.nextLine();
+               P_Name = sc.nextLine();
+               P_Cost = sc.nextInt();
+               total_Bill += P_Cost;
+          }
+          if (total_Bill > 10000 && total_Bill <= 30000)
+               total_Bill += (total_Bill * 5 / 100);
+          else if (total_Bill > 30000 && total_Bill <= 50000)
+               total_Bill += (total_Bill * 7 / 100);
+          else if (total_Bill > 50000)
+               total_Bill += (total_Bill * 9 / 100);
      }
 
-     public void isGrowing() {
-          int n = s1.length();
-          char c[] = new char[n];
-
-          for (int i = 0; i < n; i++) {
-               c[i] = s1.charAt(i);
-          }
-          Arrays.sort(c);
-          boolean flag = true;
-          for (int i = 0; i < n; i++)
-               if (c[i] != s1.charAt(i))
-                    flag = false;
-
-          if (flag) {
-               System.out.println("Growing string");
-          } else {
-               System.out.println("Not growing string");
-          }
+     public void show_Bill() {
+          System.out.println("Bill:" + total_Bill);
      }
-}
 
-class Main {
-     public static void main(String args[]) {
-          Scanner scan = new Scanner(System.in);
-          int i = scan.nextInt();
-          String str = scan.nextLine();
-          // System.out.println(i + str);
-          GrowingNumber x = new GrowingNumber(i);
-          GrowingString s = new GrowingString(str);
-          x.isGrowing();
-          // System.out.println(str);
-          s.isGrowing();
-
-          scan.close();
+     public static void main(String[] arg) {
+          int no_of_orders;
+          sc = new Scanner(System.in);
+          no_of_orders = sc.nextInt();
+          OrderOnline[] orders = new OrderOnline[no_of_orders];
+          for (int i = 0; i < no_of_orders; i++) {
+               orders[i] = new OrderOnline();
+               orders[i].getdetails();
+               orders[i].ProductDetails();
+          }
+          for (int i = 0; i < no_of_orders; i++) {
+               orders[i].showdetails();
+               orders[i].show_Bill();
+          }
      }
 }
