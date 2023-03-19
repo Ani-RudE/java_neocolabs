@@ -1,11 +1,11 @@
 #
-- code1 - Create an inteface rotate with the given functions.
+- code1 - Define an Interface Growing.
 
-- code2 - Program to count a minimum number of front moves to sort an array.
+- code2 - Create an Interface Product.
 
-- code3 - Create an interface ShapeCalculator.
+- code3 - Program to move all the Uppercase Characters to the end of the string.
 
-- code4 - Create an interface ShapeCalculator.
+- code4 - Create an Interface that has the following method - void diagonalIsMinMax(int a[][]);.
 
-- code5 - Create an interface ShapeCalculator.
+- code5 - Write a simple program to demonstrate the interface.
 #
