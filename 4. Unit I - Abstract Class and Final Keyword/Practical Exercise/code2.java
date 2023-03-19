@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*
 
 abstract class ItemType {
      public abstract double calculateAmount();
