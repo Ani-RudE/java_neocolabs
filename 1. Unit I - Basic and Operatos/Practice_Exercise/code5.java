@@ -1,7 +1,7 @@
 // Write a program to convert Celsius to Fahrenheit
 import java.util.*;
 
-class code5 {
+class Main{
 
      public static void main(String[] args) {
           double f, c;

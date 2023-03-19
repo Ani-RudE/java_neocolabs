@@ -2,7 +2,7 @@
 import java.util.*;
 import java.lang.Math;
 
-class Code1{
+class Main{
      public static void main(String[] args)
      {
           int n;

@@ -1,7 +1,7 @@
 //Change Position
 import java.util.*;
 
-class code4 {
+class Main{
      public static void main(String args[]) {
           int x, y, l;
 

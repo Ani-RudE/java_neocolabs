@@ -1,7 +1,7 @@
 import java.util.*;
 // import java.lang.Math.*;
 
-class hello{
+class Main{
      public static void main(String[] args)
      {
           double d;
