@@ -1,5 +1,5 @@
 //Create an interface ShapeCalculator.
-import java.util.*
+import java.util.*;
 
 interface ShapeCalculator {
      void calc(int n);

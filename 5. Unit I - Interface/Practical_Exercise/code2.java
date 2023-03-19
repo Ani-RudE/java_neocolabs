@@ -1,5 +1,5 @@
-import java.util.Arrays;
 import java.util.*;
+import java.util.Arrays;
 
 interface Growing{
 void isGrowing();
@@ -63,14 +63,16 @@ class GrowingString implements Growing {
 
 class Main {
      public static void main(String args[]) {
-          Scanner sc = new Scanner(System.in);
-          int i = sc.nextInt();
-          String str = sc.nextLine();
+          Scanner scan = new Scanner(System.in);
+          int i = scan.nextInt();
+          String str = scan.nextLine();
           // System.out.println(i + str);
           GrowingNumber x = new GrowingNumber(i);
           GrowingString s = new GrowingString(str);
           x.isGrowing();
           // System.out.println(str);
           s.isGrowing();
+
+          scan.close();
      }
 }

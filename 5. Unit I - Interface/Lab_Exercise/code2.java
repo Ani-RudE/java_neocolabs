@@ -1,5 +1,5 @@
 //Program to count a minimum number of front moves to sort an array.
-import java.util.*
+import java.util.*;
 
 interface Move {
      int minmoves(int arr[], int n);

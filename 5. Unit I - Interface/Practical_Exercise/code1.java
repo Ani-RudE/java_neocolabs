@@ -24,10 +24,12 @@ class Main implements Case {
 
      public static void main(String args[]) {
           String str;
-          Scanner in = new Scanner(System.in);
-          str = in.nextLine();
+          Scanner scan = new Scanner(System.in);
+          str = scan.nextLine();
           Main obj = new Main();
           obj.move(str);
           System.out.println(obj.move(str));
+
+          scan.close();
      }
 }

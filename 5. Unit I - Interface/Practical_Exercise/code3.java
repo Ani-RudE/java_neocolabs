@@ -10,9 +10,11 @@ interface in1 {
 class testClass implements in1 {
      public void display() {
           String sr;
-          Scanner sc = new Scanner(System.in);
-          sr = sc.nextLine();
+          Scanner scan = new Scanner(System.in);
+          sr = scan.nextLine();
           System.out.println(sr);
+
+          scan.close();
      }
 
      public static void main(String[] args) {
