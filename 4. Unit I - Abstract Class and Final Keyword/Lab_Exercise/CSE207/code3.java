@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*
 
 interface Food{
     public String getType();
