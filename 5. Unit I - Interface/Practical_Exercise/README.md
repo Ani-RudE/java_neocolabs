@@ -4,4 +4,8 @@
 - code2 - Program to count a minimum number of front moves to sort an array.
 
 - code3 - Create an interface ShapeCalculator.
+
+- code4 - Create an interface ShapeCalculator.
+
+- code5 - Create an interface ShapeCalculator.
 #
