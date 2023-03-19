@@ -1,5 +1,5 @@
 //Generating the series - 6, 11, 21, 36, 56...
-import java.util.*;
+import java.util.*
 
 class Main{
     public static void main(String[] args)
