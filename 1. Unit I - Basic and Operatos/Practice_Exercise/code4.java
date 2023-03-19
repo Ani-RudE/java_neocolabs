@@ -1,5 +1,5 @@
 //Change Position
-import java.util.*;
+import java.util.*
 
 class code4 {
      public static void main(String args[]) {

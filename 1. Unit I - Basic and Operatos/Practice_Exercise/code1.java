@@ -1,5 +1,5 @@
 // Write a prog. to find square, cube and square root.
-import java.util.*;
+import java.util.*
 import java.lang.Math;
 
 class Code1{
