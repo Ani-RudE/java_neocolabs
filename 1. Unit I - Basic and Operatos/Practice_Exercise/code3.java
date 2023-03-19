@@ -1,7 +1,7 @@
 // Expenses of a company
 import java.util.*;
 
-public class Main{
+class Main{
      public static void main(String[] args)
      {
           double brand, travel, food, logi, total;

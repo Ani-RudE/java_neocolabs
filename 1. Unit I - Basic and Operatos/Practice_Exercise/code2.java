@@ -1,7 +1,7 @@
 // Profit and Loss of scooter
 import java.util.*;
 
-public class Main{
+class Main{
      public static void main(String[] args)
      {
           float A, B, C;
