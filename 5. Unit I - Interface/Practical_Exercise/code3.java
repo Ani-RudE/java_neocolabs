@@ -1,5 +1,5 @@
-import java.io.*;
-import java.util.Scanner;
+import java.util.*;
+// import java.io.*;
 
 interface in1 {
      final int a = 10;

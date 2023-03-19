@@ -1,5 +1,5 @@
 //Create an inteface rotate with the given functions.
-import java.util.*;
+import java.util.*
 
 interface Rotate {
      void leftRotate(int arr[], int d, int n);
