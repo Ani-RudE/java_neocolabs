@@ -1,4 +1,4 @@
-import java.util.*
+import java.util.*;
 
 abstract class marks {
      abstract public void getPercentage();
