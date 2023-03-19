@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 abstract class AbstractClass {
      int val;
