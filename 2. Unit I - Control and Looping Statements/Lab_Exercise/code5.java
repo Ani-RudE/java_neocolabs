@@ -1,7 +1,7 @@
 //Kaprekar Number.
 import java.util.*;
 
-class hello{
+class Main{
      public static void main(String args[])
      {
           int k=1, n=0, r;

@@ -66,14 +66,14 @@ class Main{
                }
                if (month==6)
                {
-                    if (day < 21)
+                    if (day<21)
                     {
-                         sign = "Gemini";
+                         sign="Gemini";
                     }
                }
                else
                {
-                    sign = "Cancer";
+                    sign="Cancer";
                }
                if (month == 7)
                {

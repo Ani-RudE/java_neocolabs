@@ -1,7 +1,7 @@
 //Second Last and Third Last.
 import java.util.*;
 
-class code6{
+class Main{
      public static void main(String[] args)
      {
           int num;

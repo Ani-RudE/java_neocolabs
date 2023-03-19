@@ -1,7 +1,7 @@
 //Half-Diamond Printing.
 import java.util.*;
 
-class hello{
+class Main{
      public static void main(String[] args)
      {
           Scanner sc = new Scanner(System.in);
