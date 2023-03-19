@@ -1,5 +1,5 @@
 // Write a program to convert Celsius to Fahrenheit
-import java.util.*
+import java.util.*;
 
 class Main{
 
