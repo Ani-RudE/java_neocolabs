@@ -1,4 +1,4 @@
-//Account Details
+//Account Detai
 import java.util.*;
 
 class Account {
