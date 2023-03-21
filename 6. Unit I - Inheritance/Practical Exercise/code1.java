@@ -1,4 +1,4 @@
-//Create 4 classes Person, Staff, TemporaryStaff and a Main clas
+//Create 4 classes Person, Staff, TemporaryStaff and a Main class
 import java.util.Scanner;
 
 class Person {
