@@ -1,4 +1,4 @@
-//Overriding-simpl
+//Overriding-simple
 import java.util.*;
 import java.text.DecimalFormat;
 

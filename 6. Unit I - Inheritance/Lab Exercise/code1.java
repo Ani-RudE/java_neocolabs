@@ -1,4 +1,4 @@
-//Write a program such that it have three classe
+//Write a program such that it have three classes
 import java.util.*;
 
 class Person {
