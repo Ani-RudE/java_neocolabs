@@ -1,4 +1,4 @@
-//Develop a program for banking system for account management
+//Develop a program for banking system for account managemen
 import java.util.*;
 
 class Account {

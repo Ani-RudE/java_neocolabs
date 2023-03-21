@@ -1,4 +1,4 @@
-//You are in an Online shopping portal
+//You are in an Online shopping porta
 import java.util.*;
 
 class BasicCustomer {

@@ -1,4 +1,4 @@
-//GST Calculation
+//GST Calculatio
 import java.util.*;
 import java.text.DecimalFormat;
 import java.text.ParseException;
