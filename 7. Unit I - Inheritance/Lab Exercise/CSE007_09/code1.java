@@ -19,7 +19,7 @@ class Human extends Bird{
      }
 }
 
-public class Main {
+class Main {
      public static void main(String[] args)
      {
           Human obj=new Human();
