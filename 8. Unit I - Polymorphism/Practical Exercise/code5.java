@@ -1,4 +1,4 @@
-//Write a Multiply function for two integers
+//Write a Multiply function for two integers and use overload the function by using changing the number of parameters for three integers
 import java.util.*;
 
 class Main {

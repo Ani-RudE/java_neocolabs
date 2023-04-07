@@ -1,4 +1,4 @@
-//Write a Multiply function for two integers
+//Write a Multiply function for two integers and use overload the function by changing the parameter for the double data type
 import java.util.*;
 
 class Main {
