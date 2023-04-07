@@ -1,4 +1,4 @@
-//Student and Test
+//Write a java program to implement constructor overloading. Create a student class
 import java.util.*;
 
 class Student {
