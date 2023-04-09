@@ -9,6 +9,6 @@
 
 - code1 - Design a class named Person
 
-- code2 - 
+- code2 - Write the following code - A class named Arithmetic - A class named Adder
 
 #
