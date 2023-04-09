@@ -1,3 +1,4 @@
+//Design a class named Person
 //Main.java
 public class Main {
      public static void main(String[] args)
