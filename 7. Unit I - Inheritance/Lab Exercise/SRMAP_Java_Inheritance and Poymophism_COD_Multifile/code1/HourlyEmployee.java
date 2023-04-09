@@ -1,3 +1,4 @@
+//You are tasked with creating a payroll system for a company that has both salaried and hourly employees
 //HourlyEmployee.java
 public class HourlyEmployee extends Employee {
      private double rate;
