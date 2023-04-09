@@ -1,3 +1,5 @@
+//Write the following code - A class named Arithmetic - A class named Adder
+//Main.java
 import java.util.*;
 
 public class Main{
