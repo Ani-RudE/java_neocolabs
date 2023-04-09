@@ -1,3 +1,4 @@
+//Suppose you are the manager of a retail store and you want to manage the details of your employees
 //Main.java
 import java.util.Scanner;
 

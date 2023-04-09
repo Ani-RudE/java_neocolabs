@@ -1,3 +1,4 @@
+//Suppose you are the manager of a retail store and you want to manage the details of your employees
 // Person.java
 public class Person {
      protected String name;

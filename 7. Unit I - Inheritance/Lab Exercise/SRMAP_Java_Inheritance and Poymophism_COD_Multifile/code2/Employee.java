@@ -1,3 +1,4 @@
+//Suppose you are the manager of a retail store and you want to manage the details of your employees
 // Employee.java
 public class Employee extends Person {
      private String employeeId;
