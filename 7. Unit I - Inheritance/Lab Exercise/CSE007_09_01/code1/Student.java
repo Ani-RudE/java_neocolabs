@@ -1,3 +1,4 @@
+//Design a class named Person
 //Student.java
 public class Student extends Person
 {

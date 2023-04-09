@@ -1,3 +1,4 @@
+//Design a class named Person
 //Person.java
 public class Person{
      private String name;
