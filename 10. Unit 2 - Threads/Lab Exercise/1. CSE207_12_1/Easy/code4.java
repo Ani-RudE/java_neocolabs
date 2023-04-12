@@ -1,16 +1,4 @@
-//Instructions related to the missing lines are provided as comment in the the code snippet
-}
-catch (InterruptedException e)
-{
-     System.out.println(e);
-}
-
-System.out.println(i);
-}
-
-in.close();
-}
-
-public static void main(String[] args)
-{
-     Main t1=new Main();
+//The desired tasks are commented out in the code snippet
+     Thread th1 = new Thread(r1, "My new thread");
+     th1.start();
+     String str = th1.getName();
