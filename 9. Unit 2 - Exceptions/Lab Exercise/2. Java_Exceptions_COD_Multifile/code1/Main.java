@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Main {
      public static void main(String[] args) {
-          Scanner scanner = new Scanner(System.in);
+          Scanner scan = new Scanner(System.in);
           System.out.println("Welcome to the Neo bank!");
           // Create a new account for the user
           Account account = new Account();
@@ -15,11 +15,11 @@ public class Main {
                 * System.out.println("3. Check balance");
                 * System.out.println("4. Exit");
                 */
-               int choice = scanner.nextInt();
+               int choice = scan.nextInt();
                switch (choice) {
                     case 1:
                          // System.out.print("Enter the amount to deposit: ");
-                         double depositAmount = scanner.nextDouble();
+                         double depositAmount = scan.nextDouble();
                          try {
                               account.deposit(depositAmount);
                               System.out.println("Deposit successful!");
@@ -29,7 +29,7 @@ public class Main {
                          break;
                     case 2:
                          // System.out.print("Enter the amount to withdraw: ");
-                         double withdrawAmount = scanner.nextDouble();
+                         double withdrawAmount = scan.nextDouble();
                          try {
                               account.withdraw(withdrawAmount);
                               System.out.println("Withdrawal successful!");
@@ -48,6 +48,8 @@ public class Main {
                          System.out.println("Invalid choice. Please try again.");
                          break;
                }
+               
+               scan.close();
           }
      }
 }
