@@ -2,10 +2,10 @@
 }
 catch (InterruptedException e)
 {
-     System.out.prinln(e);
+     System.out.println(e);
 }
 
-System.out.prinln(i)
+System.out.println(i);
 }
 
 in.close();
@@ -14,4 +14,3 @@ in.close();
 public static void main(String[] args)
 {
      Main t1=new Main();
-}
