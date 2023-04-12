@@ -1,3 +1,4 @@
+//Write a Java Program that prompts the suer to input an integer value between 1 and 10
 //Main.java
 import java.util.*;
 

@@ -1,3 +1,4 @@
+//Create a Java Program that takes two integers to input from the user
 //Main.java
 import java.util.*;
 
