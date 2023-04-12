@@ -1,16 +1,5 @@
-public class Main {
-     public static void main(String args[]) {
-          Table obj = new Table();// only one object
-          MyThread1 t1 = new MyThread1(obj);
-          MyThread2 t2 = new MyThread2(obj);
-          t1.start();
-          t2.start();
-     }
-}
-
-class Table {
-     void printTable(int n) {// synchronized method
-          synchronized (this) {
+//Write two thread MyThread1 and MyThread2 as used in Main function
+synchronized (this) {
                for (int i = 1; i <= 5; i++) {
                     System.out.println(n * i);
                     try {
@@ -45,4 +34,3 @@ class MyThread2 extends Thread {
      public void run() {
           t.printTable(101);
      }
-}
