@@ -1,4 +1,3 @@
-
 //Write a program to obtain two numbers and print their quotient
 import java.util.*;
 
