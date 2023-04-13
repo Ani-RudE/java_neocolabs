@@ -2,7 +2,7 @@
 
 - code1 - Write a program to obtain two numbers and print their quotient
 
-- code2 - 
+- code2 - NullPointerException
 
 - code3 - 
 
