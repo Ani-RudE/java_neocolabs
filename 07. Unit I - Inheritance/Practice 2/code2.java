@@ -1,3 +1,4 @@
+
 //Bank Account
 import java.util.*;
 
@@ -91,7 +92,7 @@ class SavingsAccount extends Account {
      }
 }
 
-public class code2 {
+class Main{
      public static void main(String[] args) {
           Scanner scan = new Scanner(System.in);
           int choice = scan.nextInt();
