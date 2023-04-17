@@ -58,7 +58,6 @@ class Main {
                a.setAccountHoldername(scan.nextLine());
                Thread t = new Thread(a);
                a.start();
-               scan.close();
           }
      }
 }

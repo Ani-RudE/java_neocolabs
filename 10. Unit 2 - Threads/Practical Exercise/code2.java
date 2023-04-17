@@ -76,7 +76,6 @@ class Main {
                h.setSeatsBooked(Integer.parseInt(scan.nextLine()));
                Thread t = new Thread(h);
                t.start();
-               scan.close();
           }
      }
 }
