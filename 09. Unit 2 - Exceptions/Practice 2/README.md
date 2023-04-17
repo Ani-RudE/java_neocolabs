@@ -4,10 +4,10 @@
 
 - code2 - NullPointerException
 
-- code3 - 
+- code3 - User defined Exception
 
-- code4 - 
+- code4 - Write a program to read the Register Number and Mobile Number of a student
 
-- code5 - 
+- code5 - ArrayIndexOutOfBoundsException
 
 #

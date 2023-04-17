@@ -1,4 +1,7 @@
+//Write a program to read the Register Number and Mobile Number of a student
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 class Main {
      static void validate(String r, String n) {
