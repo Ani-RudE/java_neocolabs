@@ -1,5 +1,5 @@
-import java.io.*;
 import java.util.*;
+import java.io.*;
 
 class AppendToFile {
      public static void appendStrToFile(String fileName,

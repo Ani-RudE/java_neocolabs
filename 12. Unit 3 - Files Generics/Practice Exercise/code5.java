@@ -1,5 +1,5 @@
-import java.io.*;
 import java.util.*;
+import java.io.*;
 
 class Sample {
      public static void main(String args[]) throws Exception {

@@ -9,7 +9,7 @@ class Main {
           BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
           int c;
           while ((c = br.read()) != -1) {
-               System.out.print(" " + (char) c);
+               System.out.print("\t" + (char) c);
           }
           System.out.println();
           System.out.println();
