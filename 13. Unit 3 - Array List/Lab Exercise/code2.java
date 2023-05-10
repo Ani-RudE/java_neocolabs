@@ -1,3 +1,4 @@
+//Create a class ArrayListMain and
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Iterator;
